@@ -10,7 +10,7 @@ Script Purpose:
 		- Inserts transformed and cleansed data from Bronze into Silver tables.
 */
 
-CREATE OR REPLACE PROCEDURE silver.load_bronze()
+CREATE OR REPLACE PROCEDURE silver.load_silver()
 LANGUAGE plpgsql
 AS $$
 DECLARE
